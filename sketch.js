@@ -124,7 +124,7 @@ function draw() {
     }
 }
 }
-}
+
 function mousePressed(){
     if(gameState !== "end"){
         turn++
