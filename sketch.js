@@ -73,10 +73,10 @@ function draw() {
 
 
  
-  for (var j = 0; j < particles.length; j++) {
+//   for (var j = 0; j < particles.length; j++) {
    
-     particles[j].display();
-   }
+//      particles[j].display();
+//    }
    for (var k = 0; k < divisions.length; k++) {
          divisions[k].display();
          
