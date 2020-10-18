@@ -60,6 +60,12 @@ function setup() {
 function draw() {
   background("black");
   Engine.update(engine);
+  
+    if ( gameState =="end") {
+    
+    textSize(100);
+    text("GameOver", 150, 250)
+  }
  
   
    for (var i = 0; i < plinkos.length; i++) {
